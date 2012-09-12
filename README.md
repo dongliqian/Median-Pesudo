@@ -1,4 +1,4 @@
 Median-Pesudo
 =============
 
-Median MapReducer
+Median Pesudo
