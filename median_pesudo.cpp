@@ -66,7 +66,7 @@ void median_reduce(int64_t start, int64_t end, int64_t * newStart, int64_t * new
 
   for (int i = GUESS_NUM; i >= 0; i--)
   {
-    if (ranks[i].first <= TOTAL_NUM / 2)
+    if (ranks[i].second <= TOTAL_NUM / 2)
     {
       *newEnd = guesses[i];
       break;
